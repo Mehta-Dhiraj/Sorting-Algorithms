@@ -1,4 +1,4 @@
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 
 void selectionSort(int[], int);
@@ -38,4 +38,4 @@ void selectionSort(int a[], int n) {
 		a[iMin] = temp;
 
 	}
-}
+}*/
