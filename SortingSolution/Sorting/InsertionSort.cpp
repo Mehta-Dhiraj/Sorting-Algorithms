@@ -1,4 +1,4 @@
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 
 void insertionSort(int[], int);
@@ -34,4 +34,4 @@ void insertionSort(int a[], int n) {
 		}
 		a[hole] = value;
 	}
-}
+}*/
