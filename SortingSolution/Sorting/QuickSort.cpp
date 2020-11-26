@@ -2,7 +2,7 @@
 using namespace std;
 
 void quickSort(int[], int, int);
-int Partion(int [], int, int);
+int Partition(int [], int, int);
 
 int main() {
 
@@ -25,13 +25,13 @@ int main() {
 
 void quickSort(int arr[], int start, int end) {
 	if (start < end) {
-		int partionIndex = Partion(arr, start, end);
+		int partionIndex = Partition(arr, start, end);
 		quickSort(arr, start, partionIndex - 1);
 		quickSort(arr, partionIndex + 1, end);
 	}
 }
 
-int  Partion(int arr[],int start, int end) {
+int  Partition(int arr[],int start, int end) {
 	int pivot = arr[end];
 	int pIndex = start;
 
